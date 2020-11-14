@@ -32,7 +32,7 @@ html, body {
     background: linear-gradient($deg, $c1, $c2);
 }
 
-@media (min-width: 900px) {
+@media (min-width: 800px) {
 
     body {
         align-items: center;
@@ -40,7 +40,6 @@ html, body {
         display: flex;
         flex-direction: row;
         height: 100%;
-        min-width: 1050px;
         position: relative;
         width: 100%;
 
@@ -61,6 +60,10 @@ html, body {
             padding-bottom: 1.5%;
             position: relative;
             width: 64%;
+
+            #mobile-storage-quote {
+                display: none;
+            }
 
             #options-box {
                 justify-content: center;
@@ -251,7 +254,7 @@ html, body {
     }
 }
 
-@media (max-width: 899px) {
+@media (max-width: 799px) {
 
     body {
         align-items: center;
@@ -274,6 +277,7 @@ html, body {
             flex-direction: column;
             height: 61.5%;
             margin: auto;
+            min-height: 350px;
             min-width: 333.75px;
             padding-bottom: 1.5%;
             position: relative;
