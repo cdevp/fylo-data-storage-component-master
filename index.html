@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script> 
+  <title>Frontend Mentor | Fylo data storage component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <img id="bg-image" src="images/bg-desktop.png" alt="background image pattern of blue waves">
+  <div id="content">
+    <div id="options-box">
+      <div id="logo">
+        <img src="images/logo.svg" alt="Fylo logo">
+      </div>
+      <div id="options-icons">
+        <img class="icon" src="images/icon-document.svg" alt="document icon">
+        <img class="icon" src="images/icon-folder.svg" alt="folder icon">
+        <img class="icon" src="images/icon-upload.svg" alt="upload icon">
+      </div>
+    </div>
+    <div id="storage-box">
+      <div id="main-storage-content">
+        <span id="remaining-storage-text">You’ve used <span id="storage-em">815 GB</span> of your storage</span>
+        <div id="remaining-storage-bar">
+          <div id="background-storage-bar">
+            <div id="current-storage-bar">
+            </div>
+          </div>
+        </div>
+        <div id="remaining-storage-labels">
+          <span>0 GB</span>
+          <span>1000 GB</span>
+        </div>
+      </div>
+      <div id="mobile-last-storage-section"></div>
+      <div id="storage-quote">
+        <div id="storage-text">
+          <span id="storage-text-1">185</span>
+          <span id="storage-text-2">GB Left</span>
+        </div>
+        <div id="storage-triangle"></div>
+      </div>
+    </div>
+    <div id="mobile-storage-quote">
+      <div id="mobile-quote-content">
+        <span id="mobile-storage-text-1">185</span>
+        <span id="mobile-storage-text-2">GB Left</span>
+      </div>
+    </div>
+     <div id="last-storage-section"></div>
+
+ </div>
+<!--  You’ve used 815 GB of your storage
+
+  185 GB Left
+  
+  0 GB
+  1000 GB
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+</body>
+</html>
